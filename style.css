@@ -25,13 +25,6 @@ form button{
     padding: 0 0.5rem;
 }
 
-form button:hover {
-    background: #1f5886d9;
-    cursor: pointer;
-    transition: 0.1s;
-    transition-duration: 0.5s;
-}
-
 .checklist_container  {
     color: rgb(245, 245, 245);
     display: flex;
@@ -55,6 +48,13 @@ form button:hover {
     background: #007bc3;
     opacity: 1;
     min-height: 50px;
+}
+
+#checklist_input button:hover {
+    background: #1f5886d9;
+    cursor: pointer;
+    transition: 0.1s;
+    transition-duration: 0.5s;
 }
 
 .checklist_list {
@@ -99,7 +99,7 @@ form button:hover {
 }
 
 .delete_button:hover {
-    background: #1f5886d9;
+    background: #747474d9;
     cursor: pointer;
     transition-duration: 0.5s;
 }
@@ -163,8 +163,13 @@ form button:hover {
         margin-right: 15px;
     }
 
+    .task_checkbox {
+        margin-right: 5px;
+    }
+
     .checklist_list {
-        max-width: 80%;
+        max-width: 35%;
+        min-width: 400px;
     }
 
     .task li {

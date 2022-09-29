@@ -1,5 +1,5 @@
 # 📝Todo-List
 A simple todo list made using vanilla Javascript.
 
-You can try it here:
+You can test it here:
 https://andreabarchi.github.io/Todo-List/

@@ -207,6 +207,9 @@ form button{
     #task_creation {
         margin-bottom: 3rem;
     }
+    .add_button {
+        min-width: 70px;
+    }
     .type_selection {
         margin-bottom: 0.2rem;
     }

@@ -21,7 +21,10 @@ body, html {
 }
 
 body{
-    background-image: linear-gradient(to bottom, #845ec2, #7862c7, #6b66ca, #5c6ace, #4b6ed0, #4071d1, #3274d2, #2277d2, #1a7ad2, #117cd1, #077fd0, #0081cf);
+    /* background-image: linear-gradient(to bottom, #845ec2, #7862c7, #6b66ca, #5c6ace, #4b6ed0, #4071d1, #3274d2, #2277d2, #1a7ad2, #117cd1, #077fd0, #0081cf); */
+    background: linear-gradient(90deg, hsla(213, 77%, 14%, 1) 0%, hsla(202, 27%, 45%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(213, 77%, 14%, 1) 0%, hsla(202, 27%, 45%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(213, 77%, 14%, 1) 0%, hsla(202, 27%, 45%, 1) 100%);
     min-height: 100vh;
 }
 
@@ -51,9 +54,9 @@ form button{
 #checklist_input select, #checklist_input input, #checklist_input button {
     color: white;
     border: none;
-    border-radius: 50px;
+    border-radius: 5px;
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 1px 0px 0 rgba(0, 0, 0, 0.19);
-    background: #4e2c85;
+    background: #1e14425e;
     opacity: 1;
     min-height: 50px;
 }
@@ -71,7 +74,7 @@ form button{
 }
 
 .task {
-    border-radius: 15px;
+    border-radius: 5px;
     padding: 5px;
     margin: 0.5rem;
     color: rgb(175, 175, 175);
@@ -97,7 +100,7 @@ form button{
 }
 
 .delete_button {
-    border-radius: 50px;
+    border-radius: 5px;
     background: rgba(255, 255, 255, 0.595);
 }
 
@@ -127,8 +130,8 @@ form button{
 
 .order_by_selection select {
     padding: 0.4rem;
-    border-radius: 50px;
-    background-color: #4e2c85; 
+    border-radius: 5px;
+    background-color: #1e14425e; 
     color: rgb(255, 255, 255);
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 1px 0px 0 rgba(0, 0, 0, 0.19);
     border: none;

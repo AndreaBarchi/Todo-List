@@ -12,32 +12,32 @@
 </head>
 <body>
     <div class="wrapper">
-    <form id="checklist_input">
-        <div class="type_selection">
-            <select name="task_type_selection" class="task_type">
-                <option value="Standard">Standard Task</option>
-                <option value="Daily">Daily Task</option>
-            </select>
+        <form id="checklist_input">
+            <div class="type_selection">
+                <select name="task_type_selection" class="task_type">
+                    <option value="Standard">Standard Task</option>
+                    <option value="Daily">Daily Task</option>
+                </select>
+            </div>
+            <div id="task_creation">
+                <input type="text" class="task_input" placeholder="Enter task name">
+                <button class="add_button" type="submit">Add</button>
+            </div>
+        </form>
+        <div class="checklist_container">
+            <div class="order_by_selection">
+                <select name="task_order_by" class="task_order">
+                    <option value="All">Show: All</option>
+                    <option value="Completed">Show: Completed</option>
+                    <option value="Not Completed">Show: Not Completed</option>
+                    <option value="Standard">Show: Standard Tasks</option>
+                    <option value="Daily">Show: Daily Tasks</option>
+                </select>
+            </div>
+            <ul class="checklist_list">
+            </ul>
         </div>
-        <div id="task_creation">
-            <input type="text" class="task_input" placeholder="Enter task name">
-            <button class="add_button" type="submit">Add</button>
-        </div>
-    </form>
-    <div class="checklist_container">
-        <div class="order_by_selection">
-            <select name="task_order_by" class="task_order">
-                <option value="All">Show: All</option>
-                <option value="Completed">Show: Completed</option>
-                <option value="Not Completed">Show: Not Completed</option>
-                <option value="Standard">Show: Standard Tasks</option>
-                <option value="Daily">Show: Daily Tasks</option>
-            </select>
-        </div>
-        <ul class="checklist_list">
-        </ul>
-    </div>
-    <script src="./main.js"></script>
+        <script src="./main.js"></script>
     </div>
 </body>
 </html>
